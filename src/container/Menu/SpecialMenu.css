@@ -55,7 +55,6 @@
         width: 650px;
     }
     .app__specialMenu-img_img img {
-        width: 650px;
         height: 920px;
     }
  
@@ -77,6 +76,11 @@
     .app__specialMenu-img_img {
        width: 100%;
     }
+
+    /* I added this img selector */
+    .app__specialMenu-img_img img {  
+        height: 100%;
+     }
 
     .app__specialMenu_menu_heading {
         font-size: 35px;
